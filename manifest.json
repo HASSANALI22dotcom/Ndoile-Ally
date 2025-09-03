@@ -1,0 +1,104 @@
+{
+{
+  "name": "Ukoo wa ALLY NDOILE MKILINDI",
+  "short_name": "Ukoo ALLY",
+  "description": "Jukwaa la mawasiliano ya ukoo wa ALLY NDOILE MKILINDI - Mazungumzo, matukio, picha na historia ya ukoo wetu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#166534",
+  "theme_color": "#166534",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "sw",
+  "dir": "ltr",
+  "categories": [
+    "social",
+    "communication",
+    "lifestyle"
+  ],
+  "screenshots": [
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ujumbe",
+      "short_name": "Ujumbe",
+      "description": "Tuma ujumbe kwa wanaukoo",
+      "url": "/?section=messages",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Matukio",
+      "short_name": "Matukio",
+      "description": "Ona matukio ya ukoo",
+      "url": "/?section=events",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Wanaukoo",
+      "short_name": "Wanaukoo",
+      "description": "Orodha ya wanaukoo",
+      "url": "/?section=members",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Picha",
+      "short_name": "Picha",
+      "description": "Galeri ya picha za ukoo",
+      "url": "/?section=gallery",
+      "icons": [
+        {
+          "src": "android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
